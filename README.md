@@ -10,53 +10,102 @@ Howland transforms legacy codebases into modern, maintainable applications throu
 
 ## Download
 
+[Desktop Releases](https://github.com/MeridianVega/Howland/releases?q=desktop-v) | [Mobile Releases](https://github.com/MeridianVega/Howland/releases?q=mobile-v) | [All Releases](https://github.com/MeridianVega/Howland/releases)
+
 ### Desktop Applications
+
+**[Download Latest Desktop Version →](https://github.com/MeridianVega/Howland/releases?q=desktop-v)**
 
 #### Windows
 
-**Installer**
-- [Download: Howland-Setup-Windows.exe](../../releases/latest)
-- Recommended for most users
-- Automatic updates included
+**Installer** (Recommended)
+- Look for: `Howland-Setup-*-Windows-x64.exe` (Intel/AMD)
+- Look for: `Howland-Setup-*-Windows-arm64.exe` (ARM devices)
+- Standard installation with automatic updates
 
-**Portable**
-- [Download: Howland-Portable-Windows.exe](../../releases/latest)
-- No installation required
-- Run from any location
+**Portable Edition**
+- Look for: `Howland-Portable-*-Windows-x64.exe`
+- No installation required, run from any location
+
+**Microsoft Store**
+- Search "Howland" in Microsoft Store
+- Automatic updates, sandboxed security
 
 **Requirements**: Windows 10 (64-bit) or later
 
 #### macOS
 
-**Apple Silicon**
-- [Download: Howland-macOS-ARM64.dmg](../../releases/latest)
-- For M1, M2, M3, M4 Macs
+**Direct Download**
+- Universal (Recommended): `Howland-*-macOS-universal.dmg`
+- Apple Silicon: `Howland-*-macOS-arm64.dmg`
+- Intel: `Howland-*-macOS-x64.dmg`
+
+**Mac App Store**
+- Search "Howland" in Mac App Store
+- Automatic updates, App Store integration
+
+**Homebrew**
+```bash
+brew install howland
+```
 
 **Requirements**: macOS 10.13 (High Sierra) or later
 
 #### Linux
 
 **Debian/Ubuntu**
-- [Download: Howland-Linux.deb](../../releases/latest)
-- For Ubuntu 20.04+, Debian 11+, Linux Mint 20+
+- Intel/AMD: `Howland-*-Linux-x64.deb`
+- ARM: `Howland-*-Linux-arm64.deb`
 
 **Universal Binary**
-- [Download: Howland-Linux.AppImage](../../releases/latest)
-- Compatible with all distributions
+- Intel/AMD: `Howland-*-Linux-x64.AppImage`
+- ARM: `Howland-*-Linux-arm64.AppImage`
+
+**Snap Store**
+```bash
+snap install howland
+```
+
+**Flatpak**
+```bash
+flatpak install howland
+```
 
 **Requirements**: glibc 2.28 or later
 
 ### Mobile Applications
 
+**[Download Latest Mobile Version →](https://github.com/MeridianVega/Howland/releases?q=mobile-v)**
+
 #### iOS
-- **Status**: Beta testing via TestFlight
-- **Requirements**: iOS 17.0 or later, iPhone 8 or newer
-- **Access**: Contact enterprise@meridianvega.com for beta invitation
+
+**App Store**
+- Search "Howland" in Apple App Store
+- iPhone and iPad compatible
+- Automatic updates
+
+**Direct Download** (Advanced)
+- Look for: `*.ipa` files in mobile releases
+- Requires AltStore, Sideloadly, or enterprise certificate
+
+**Requirements**: iOS 14.0 or later
 
 #### Android
-- **Status**: Beta testing via Google Play Internal Testing
-- **Requirements**: Android 14.0 or later
-- **Access**: Contact enterprise@meridianvega.com for beta invitation
+
+**Google Play Store**
+- Search "Howland" in Google Play Store
+- Automatic updates
+
+**Direct Download** (APK)
+- Look for: `app-release.apk` or `Howland-*.apk`
+- Install directly on Android devices
+- Enable "Install unknown apps" in device settings
+
+**Direct Download** (AAB)
+- Look for: `app-release.aab` or `Howland-*.aab`
+- For manual upload to your own Google Play Console account
+
+**Requirements**: Android 14.0 (API 34) or later
 
 ---
 
