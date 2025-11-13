@@ -10,11 +10,12 @@ Howland transforms legacy codebases into modern, maintainable applications throu
 
 ## Download
 
-[Desktop Releases](https://github.com/MeridianVega/Howland/releases?q=desktop-v) | [Mobile Releases](https://github.com/MeridianVega/Howland/releases?q=mobile-v) | [All Releases](https://github.com/MeridianVega/Howland/releases)
+[All Releases](https://github.com/MeridianVega/Howland/releases)
 
 ### Desktop Applications
 
-**[Download Latest Desktop Version →](https://github.com/MeridianVega/Howland/releases?q=desktop-v)**
+**[Download Latest Desktop Version →](https://github.com/MeridianVega/Howland/releases)**
+*(Look for the most recent release tagged `desktop-vX.X.X`)*
 
 #### Windows
 
@@ -75,7 +76,8 @@ flatpak install howland
 
 ### Mobile Applications
 
-**[Download Latest Mobile Version →](https://github.com/MeridianVega/Howland/releases?q=mobile-v)**
+**[Download Latest Mobile Version →](https://github.com/MeridianVega/Howland/releases)**
+*(Look for the most recent release tagged `mobile-vX.X.X`)*
 
 #### iOS
 
